@@ -1,0 +1,1 @@
+# MAVEN_CI_EXAMPLE

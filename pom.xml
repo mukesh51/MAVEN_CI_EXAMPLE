@@ -4,9 +4,14 @@
   <groupId>com.stacktoheap.maven_ci_example</groupId>
   <artifactId>maven_ci_example</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.1</version>
+  <version>${revision}</version>
   <name>maven_ci_example</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <revision>${majorMinor}.${patch}</revision>
+    <majorMinor>1.0</majorMinor>
+    <patch>0</patch>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

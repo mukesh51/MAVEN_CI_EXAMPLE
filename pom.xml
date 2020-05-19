@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
   <properties>
     <revision>${majorMinor}.${patch}</revision>
-    <majorMinor>1.0</majorMinor>
+    <majorMinor>0.0</majorMinor>
     <patch>0</patch>
   </properties>
   <dependencies>
